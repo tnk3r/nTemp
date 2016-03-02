@@ -2,6 +2,7 @@
 
 ## simple server to write temperature to socket using nc 
 
+# 
 ## Add to rc.local: 
 # /path/to/server.sh &
 
@@ -16,3 +17,4 @@ while true; do
 
     done | nc -l -p 4500
 
+# Value is in Celsius / 10 
