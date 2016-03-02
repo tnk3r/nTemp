@@ -1,6 +1,11 @@
 #!/bin/ash
 
-## simple server to write temperature to socket using nc
+## simple server to write temperature to socket using nc 
+
+## Add to rc.local: 
+# /path/to/server.sh &
+
+# Then:  chmod u+x server.sh
 
 
 while true; do
@@ -9,5 +14,5 @@ while true; do
 
     sleep 5
 
-    done | nc -l 4500
+    done | nc -l -p 4500
 
