@@ -11,4 +11,3 @@ while true; do
 
     done | nc -l 4500
 
-    
