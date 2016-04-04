@@ -1,6 +1,6 @@
 #!/bin/ash
 
-## simple server to write temperature to socket using nc 
+## simple server to write temperature to socket using nc and Gateworks Laguna board
 
 # 
 ## Add to rc.local: 
